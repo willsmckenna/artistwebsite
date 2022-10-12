@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>Wills Mckenna</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/album/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/4.4/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
+<meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      
+      body {
+        background-image: url(https://images.unsplash.com/photo-1524169358666-79f22534bc6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
+      }
+      #footerelement{
+        padding-bottom: 20px;
+      }
+      #body2{
+        opacity: 0.9;
+      }
+      #headerjumbo{
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      #navheader{
+        background-color:navy;
+      }
+      #images{
+        object-fit: scale-down;
+      }
+     
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      .rotate90 {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+         transform: rotate(90deg);
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav id= "navheader" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="{%url 'home'%}">Wills Mckenna</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link font-weight-bold" href="{%url 'bio'%}">Bio</a>
+            <a class="nav-item nav-link font-weight-bold" href="{%static 'working_resume_2.pdf'%}">Resume</a>
+            <a class="nav-item nav-link font-weight-bold" href="https://github.com/willsmckenna">GitHub</a>
+            <a class="nav-item nav-link font-weight-bold" href="https://www.linkedin.com/in/wills-mckenna-759413195/">LinkedIn</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container bg-light" style="border:1px solid black; margin-top: 20px; margin-bottom: 20px;">
+        <div class="text-center">
+            <h2>About</h2>
+            <img src="" height="300" width="300" class="img-fluid"/>
+            <hr/>
+            <div class="container text-left" width="500">
+                <p>
+                    Wills Mckenna is a saxophonist, flutist, composer, and multi-instrumentalist based in Chicago, IL.  He has played in a 
+                    wide range of projects, from straight-ahead jazz to improvised music to rock oriented groups. He is a member of 
+                    Wills Mckenna's Path, Je’raf, Bison Bison, the Maxx Hunter Mcgathey Orchestra, Gramps The Vamp, and plays regularly for 
+                    singer-songwriter V.V Lightbody. He is active in both the straight ahead and improvised music scenes in Chicago, where
+                    he keeps working trios and quartets such as the Mckenna/Ali/Harris/Maunu quartet with drummer Bill Harris, Cellist Ishmael Ali and 
+                    Guitarist Peter Maunu. His first debut album "If Only Later...", with guitarist Matt Gold, guitarist Jeff Swanson, 
+                    drummer Mehtab Kirtan, bassist Justin Peterson, and keyboardist/audio engineer Dan Pierson, is slated to release early 2023.
+                </p>
+                <p> 
+                    A former student at both the Eastman School of Music in Rochester, NY and the New England Conservatory in Boston, MA, Wills brings 
+                    his technical prowess on his instruments into every musical situation and explores the intersection between free flowing stream of 
+                    consciousness playing and melodic restraint. Wills' approach to music composition is rooted as much in contemporary jazz and classical 
+                    idioms as in the highly emotive and sonically complex world of rock and ambient music. 
+                </p>
+            </div>
+        </div>
+    </div>
+   
+</main>
+
+<footer id="footerelement" class="text-muted bg-light">
+  <div class="container text-center">
+    <p> &copy; Wills Mckenna {% now "Y" %}</p>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>

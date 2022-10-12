@@ -1,0 +1,13 @@
+#PIPELINE
+steps:
+# install
+- name: node
+  entrypoint: npm
+  args: ['install']
+# build
+- name: node
+  entrypoint: npm
+  args: ['run', 'build']
+# build image
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'LOCATION-docker.pkg.dev/PROJECT_ID/REPOSITORY/IMAGE_NAME', '.' ]
